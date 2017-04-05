@@ -1,0 +1,13 @@
+templateUrl: `app/app.component.html`,
+  styles:[`input.ng-invalid {border-left:10px solid red}
+          input.ng-valid {border-left:10px solid green}
+`]
+
+
+
+myname ="Muraliii";
+
+onSubmit(value:any){
+
+console.log(value);
+}
